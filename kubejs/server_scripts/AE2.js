@@ -629,7 +629,413 @@ event.custom({
       "id": "ae2:portable_fluid_cell_256k"
     }
 })
+event.remove({output:"ae2:fluid_cell_housing"})
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"minecraft:redstone"
+      },
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"minecraft:copper_ingot"
+      },
+      {
+        "item":"minecraft:copper_ingot"
+      },
+      {
+        "item":"minecraft:copper_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:fluid_cell_housing"
+    }
 })
-
-
-
+event.remove({output:"ae2:item_cell_housing"})
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"minecraft:redstone"
+      },
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:copper_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:item_cell_housing"
+    }
+})
+event.remove({output:"ae2:spatial_storage_cell_2"}) //空間ストレージ
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:item_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:spatial_cell_component_2"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:spatial_storage_cell_2"
+    }
+})
+event.remove({output:"ae2:spatial_storage_cell_16"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:item_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:spatial_cell_component_16"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:spatial_storage_cell_16"
+    }
+})
+event.remove({output:"ae2:spatial_storage_cell_128"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:item_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:spatial_cell_component_128"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:spatial_storage_cell_128"
+    }
+})
+event.remove({output:"appmek:chemical_storage_cell_1k"}) //化学物質ストレージ
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "appmek:chemical_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:cell_component_1k"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:chemical_storage_cell_1k"
+    }
+})
+event.remove({output:"appmek:chemical_storage_cell_4k"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "appmek:chemical_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:cell_component_4k"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:chemical_storage_cell_4k"
+    }
+})
+event.remove({output:"appmek:chemical_storage_cell_16k"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "appmek:chemical_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:cell_component_16k"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:chemical_storage_cell_16k"
+    }
+})
+event.remove({output:"appmek:chemical_storage_cell_64k"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "appmek:chemical_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:cell_component_64k"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:chemical_storage_cell_64k"
+    }
+})
+event.remove({output:"appmek:chemical_storage_cell_256k"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "appmek:chemical_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:cell_component_256k"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:chemical_storage_cell_256k"
+    }
+})
+event.remove({output:"appmek:chemical_cell_housing"})
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"minecraft:redstone"
+      },
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"mekanism:ingot_osmium"
+      },
+      {
+        "item":"mekanism:ingot_osmium"
+      },
+      {
+        "item":"mekanism:ingot_osmium"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:chemical_cell_housing"
+    }
+})
+event.remove({output:"appmek:portable_chemical_cell_1k"}) //ポータブル化学物質セル
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "appmek:chemical_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:chest"
+      },
+      {
+        "item":"ae2:cell_component_1k"
+      },
+      {
+        "item":"ae2:energy_cell"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:portable_chemical_cell_1k"
+    }
+})
+event.remove({output:"appmek:portable_chemical_cell_4k"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "appmek:chemical_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:chest"
+      },
+      {
+        "item":"ae2:cell_component_4k"
+      },
+      {
+        "item":"ae2:energy_cell"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:portable_chemical_cell_4k"
+    }
+})
+event.remove({output:"appmek:portable_chemical_cell_16k"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "appmek:chemical_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:chest"
+      },
+      {
+        "item":"ae2:cell_component_16k"
+      },
+      {
+        "item":"ae2:energy_cell"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:portable_chemical_cell_16k"
+    }
+})
+event.remove({output:"appmek:portable_chemical_cell_64k"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "appmek:chemical_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:chest"
+      },
+      {
+        "item":"ae2:cell_component_64k"
+      },
+      {
+        "item":"ae2:energy_cell"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:portable_chemical_cell_64k"
+    }
+})
+event.remove({output:"appmek:portable_chemical_cell_256k"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "appmek:chemical_cell_housing"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:chest"
+      },
+      {
+        "item":"ae2:cell_component_256k"
+      },
+      {
+        "item":"ae2:energy_cell"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "appmek:portable_chemical_cell_256k"
+    }
+})
+event.remove({output:"ae2:formation_core"}) //形成コア
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "tag":"c:gems/certus_quartz"
+      },
+      {
+        "item":"ae2:fluix_dust"
+      },
+      {
+        "item":"ae2:logic_processor"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:formation_core"
+    }
+})
+event.remove({output:"ae2:annihilation_core"}) //消滅コア
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:quartz"
+      },
+      {
+        "item":"ae2:fluix_dust"
+      },
+      {
+        "item":"ae2:logic_processor"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:annihilation_core"
+    }
+})
+})
