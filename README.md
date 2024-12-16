@@ -1,2 +1,2 @@
-# Cooking-Pot-Craft-CPC-
+# Cooking Pot Craft CPC
 Ultimate Cooking Pot
