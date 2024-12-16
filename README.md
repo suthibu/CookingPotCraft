@@ -1,2 +1,3 @@
 # Cooking Pot Craft CPC
-Ultimate Cooking Pot
+鍋による鍋のための鍋化レシピ
+Kubejsによる新鮮な鍋レシピをお送りしております。
