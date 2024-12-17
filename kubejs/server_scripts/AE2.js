@@ -1038,4 +1038,243 @@ event.custom({
       "id": "ae2:annihilation_core"
     }
 })
+event.remove({output:"ae2:void_card"}) //基本カード
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:basic_card"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:calculation_processor"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:void_card"
+    }
+})
+event.remove({output:"ae2:redstone_card"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:basic_card"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:redstone_torch"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:redstone_card"
+    }
+})
+event.remove({output:"ae2:crafting_card"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:basic_card"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:crafting_table"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:crafting_card"
+    }
+})
+event.remove({output:"ae2:capacity_card"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:basic_card"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "tag":"c:gems/certus_quartz"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:capacity_card"
+    }
+})
+event.remove({output:"ae2:basic_card"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:calculation_processor"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:gold_ingot"
+      },
+      {
+        "item":"minecraft:redstone"
+      },
+      {
+        "item":"minecraft:gold_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:basic_card"
+    }
+})
+event.remove({output:"ae2:equal_distribution_card"}) //上級カード
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:advanced_card"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:calculation_processor"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:equal_distribution_card"
+    }
+})
+event.remove({output:"ae2:inverter_card"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:advanced_card"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:redstone_torch"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:inverter_card"
+    }
+})
+event.remove({output:"ae2:speed_card"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:advanced_card"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:fluix_crystal"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:speed_card"
+    }
+})
+event.remove({output:"ae2:fuzzy_card"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:advanced_card"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "tag":"minecraft:wool"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:fuzzy_card"
+    }
+})
+event.remove({output:"ae2:energy_card"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:advanced_card"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:energy_cell"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:energy_card"
+    }
+})
+event.remove({output:"ae2:advanced_card"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:calculation_processor"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:diamond"
+      },
+      {
+        "item":"minecraft:redstone"
+      },
+      {
+        "item":"minecraft:diamond"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:advanced_card"
+    }
+})
 })
