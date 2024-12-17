@@ -1277,4 +1277,138 @@ event.custom({
       "id": "ae2:advanced_card"
     }
 })
+event.remove({output:"ae2:wireless_receiver"}) //無線受信機
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:fluix_pearl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:quartz_fiber"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:wireless_receiver"
+    }
+})
+event.remove({output:"ae2:wireless_booster"}) //無線ブースター
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:ender_dust"
+      },
+      {
+        "tag":"c:gems/certus_quartz"
+      },
+      {
+        "item":"ae2:fluix_dust"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:wireless_booster"
+    }
+})
+event.remove({output:"ae2:wireless_terminal"}) //無線ターミナル
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:wireless_receiver"
+      },
+      {
+        "item":"ae2:terminal"
+      },
+      {
+        "item":"ae2:dense_energy_cell"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:wireless_terminal"
+    }
+})
+event.remove({output:"ae2:wireless_crafting_terminal"}) //無線クラフトターミナル
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:wireless_terminal"
+      },
+      {
+        "item":"minecraft:crafting_table"
+      },
+      {
+        "item":"ae2:calculation_processor"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:wireless_crafting_terminal"
+    }
+})
+event.remove({output:"ae2:blank_pattern"}) //パターン
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:certus_quartz_crystal"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"minecraft:glowstone_dust"
+      },
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:copper_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:blank_pattern"
+    }
+})
 })
