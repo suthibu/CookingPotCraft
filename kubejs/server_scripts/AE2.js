@@ -1411,4 +1411,38 @@ event.custom({
       "id": "ae2:blank_pattern"
     }
 })
+event.remove({output:"ae2:cell_workbench"}) //セルベンチワーク
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:calculation_processor"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "tag":"minecraft:wool"
+      },
+      {
+        "tag":"c:chests/wooden"
+      },
+      {
+        "tag":"minecraft:wool"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:cell_workbench"
+    }
+})
 })
