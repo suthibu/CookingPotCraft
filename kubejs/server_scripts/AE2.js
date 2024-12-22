@@ -1445,4 +1445,526 @@ event.custom({
       "id": "ae2:cell_workbench"
     }
 })
+event.remove({output:"ae2:chest"}) //MEチェスト
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:terminal"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:fluix_glass_cable"
+      },
+      {
+        "tag":"c:glass_blocks"
+      },
+      {
+        "item":"ae2:fluix_glass_cable"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:copper_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:chest"
+    }
+})
+event.remove({output:"ae2:interface"}) //MEインターフェース
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:annihilation_core"
+      },
+      {
+        "tag":"c:glass_blocks"
+      },
+      {
+        "item":"ae2:formation_core"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "tag":"c:glass_blocks"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:interface"
+    }
+})
+event.remove({output:"ae2:io_port"}) //ME入出力ポート
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:drive"
+      },
+      {
+        "item":"ae2:fluix_glass_cable"
+      },
+      {
+        "item":"ae2:drive"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:logic_processor"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:io_port"
+    }
+})
+event.remove({output:"ae2:vibration_chamber"}) //火力発電機
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:fluix_crystal"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:copper_ingot"
+      },
+      {
+        "item":"minecraft:furnace"
+      },
+      {
+        "item":"minecraft:copper_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:energy_acceptor"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:vibration_chamber"
+    }
+})
+event.remove({output:"ae2:drive"}) //MEドライブ
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:fluix_glass_cable"
+      },
+      {
+        "item":"ae2:engineering_processor"
+      },
+      {
+        "item":"ae2:fluix_glass_cable"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:engineering_processor"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:drive"
+    }
+})
+event.remove({output:"ae2:quantum_link"}) //クァンタムリンクチェンバー
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:fluix_pearl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"ae2:fluix_pearl"
+      },
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"ae2:fluix_pearl"
+      },
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"ae2:fluix_pearl"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:quantum_link"
+    }
+})
+event.remove({output:"ae2:quantum_ring"}) //クァンタムリング
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:logic_processor"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:logic_processor"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:engineering_processor"
+      },
+      {
+        "item":"ae2:energy_cell"
+      },
+      {
+        "tag":"ae2:smart_dense_cable"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:quantum_ring"
+    }
+})
+event.remove({output:"ae2:crystal_resonance_generator"}) //クリスタルレゾナンスジェネレーター
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:charged_certus_quartz_crystal"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:copper_ingot"
+      },
+      {
+        "item":"ae2:fluix_block"
+      },
+      {
+        "item":"minecraft:copper_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:crystal_resonance_generator"
+    }
+})
+event.remove({output:"ae2:crank"}) //木のクランク
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:stick"
+      },
+      {
+        "item":"minecraft:stick"
+      },
+      {
+        "item":"minecraft:stick"
+      },
+      {
+        "item":"minecraft:copper_ingot"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:crank"
+    }
+})
+event.remove({output:"ae2:spatial_anchor"}) //空間アンカー
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:engineering_processor"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:spatial_pylon"
+      },
+      {
+        "item":"ae2:spatial_pylon"
+      },
+      {
+        "item":"ae2:spatial_pylon"
+      },
+      {
+        "item":"ae2:fluix_glass_cable"
+      },
+      {
+        "item":"ae2:spatial_cell_component_128"
+      },
+      {
+        "item":"ae2:fluix_glass_cable"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:spatial_anchor"
+    }
+})
+event.remove({output:"ae2:molecular_assembler"}) //分子組立機
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:quartz_glass"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:annihilation_core"
+      },
+      {
+        "item":"minecraft:crafting_table"
+      },
+      {
+        "item":"ae2:formation_core"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:molecular_assembler"
+    }
+})
+event.remove({output:"ae2:pattern_provider"}) //MEパターンブロバイダー
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"minecraft:crafting_table"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:annihilation_core"
+      },
+      {
+        "item":"minecraft:crafting_table"
+      },
+      {
+        "item":"ae2:formation_core"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:pattern_provider"
+    }
+})
+event.remove({output:"ae2:crafting_unit"}) //クラフトユニット
+event.custom({
+  "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:calculation_processor"
+      },
+      {
+        "item":"minecraft:iron_ingot"
+      },
+      {
+        "item":"ae2:fluix_glass_cable"
+      },
+      {
+        "item":"ae2:logic_processor"
+      },
+      {
+        "item":"ae2:fluix_glass_cable"
+      }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:crafting_unit"
+    }
+})
+event.remove({output:"ae2:crafting_accelerator"}) //並列クラフトユニット
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:crafting_unit"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:engineering_processor"
+      },
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:crafting_accelerator"
+    }
+})
+event.remove({output:"ae2:1k_crafting_storage"}) //クラフトストレージ
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:crafting_unit"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:cell_component_1k"
+      },
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:1k_crafting_storage"
+    }
+})
+event.remove({output:"ae2:4k_crafting_storage"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:crafting_unit"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:cell_component_4k"
+      },
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:4k_crafting_storage"
+    }
+})
+event.remove({output:"ae2:16k_crafting_storage"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:crafting_unit"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:cell_component_16k"
+      },
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:16k_crafting_storage"
+    }
+})
+event.remove({output:"ae2:64k_crafting_storage"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:crafting_unit"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:cell_component_64k"
+      },
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:64k_crafting_storage"
+    }
+})
+event.remove({output:"ae2:256k_crafting_storage"})
+event.custom({
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "ae2:crafting_unit"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item":"ae2:cell_component_256k"
+      },
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+      "id": "ae2:256k_crafting_storage"
+    }
+})
 })
