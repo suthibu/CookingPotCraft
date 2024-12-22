@@ -201,10 +201,10 @@ event.custom({
           "item": "mekanism:basic_control_circuit"
         },
         {
-          "item": "minecraft:iron_ingot"
+          "item": "minecraft:redstone"
         },
         {
-          "item": "minecraft:redstone"
+          "item": "minecraft:iron_ingot"
         },
         {
           "item": "mekanism:basic_control_circuit"
