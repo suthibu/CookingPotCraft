@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4B43026B4BE85BA3"
+	group: ""
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "4B43026B4BE85BA3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2F6404A46BE3035C"
+			rewards: [
+				{
+					id: "1AF5E68575998055"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "5B2FA7AD64C5E2C5"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "429703C31D14E75B"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			id: "268B6C918F056728"
+			rewards: [{
+				count: 100
+				id: "5C88547141F409FB"
+				item: {
+					count: 1
+					id: "farmersdelight:cooking_pot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30AB76A96FB8879A"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F6404A46BE3035C"]
+			id: "157478324A7539A3"
+			tasks: [{
+				id: "24B7C57BA390E07C"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["157478324A7539A3"]
+			id: "70A8D635910E295A"
+			rewards: [{
+				count: 33554432
+				id: "43A2AB2B1A76C3C3"
+				item: {
+					count: 1
+					id: "farmersdelight:cooking_pot"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "197D35681E4C21A6"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["157478324A7539A3"]
+			id: "2E0A99D6BA19A825"
+			rewards: [{
+				count: 2097152
+				id: "30FA70F2532732C7"
+				item: {
+					count: 1
+					id: "farmersdelight:cooking_pot"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0ECC5BCF5B9B5DA8"
+				item: { count: 1, id: "ae2:portable_item_cell_256k" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.75d
+		}
+	]
+}
