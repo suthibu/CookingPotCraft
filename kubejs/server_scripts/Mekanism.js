@@ -1677,4 +1677,567 @@ event.custom({
         "id": "mekanism:teleportation_core"
       }
 })
+event.remove({output:"mekanism:portable_teleporter"}) //ポータブルテレポーター
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:teleportation_core"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:basic_control_circuit"
+        },
+        {
+          "item": "mekanism:energy_tablet"
+        },
+        {
+          "item": "mekanism:basic_control_circuit"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:portable_teleporter"
+      }
+})
+event.remove({output:"mekanism:configuration_card"}) //設定カード
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:basic_control_circuit"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:alloy_infused"
+        },
+        {
+          "item": "mekanism:alloy_infused"
+        },
+        {
+          "item": "mekanism:alloy_infused"
+        },
+        {
+          "item": "mekanism:alloy_infused"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:configuration_card"
+      }
+})
+event.remove({output:"mekanism:crafting_formula"}) //クラフトレシピ
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:basic_control_circuit"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "minecraft:paper"
+        },
+        {
+          "item": "mekanism:basic_control_circuit"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:crafting_formula"
+      }
+})
+event.remove({output:"mekanism:gauge_dropper"}) //軽量スポイト
+event.custom({
+    "type": "farmersdelight:cooking",
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "tag": "c:glass_panes"
+        },
+        {
+          "item": "mekanism:ingot_osmium"
+        },
+        {
+          "tag": "c:glass_panes"
+        },
+        {
+          "tag": "c:glass_panes"
+        },
+        {
+          "tag": "c:glass_panes"
+        },
+        {
+          "tag": "c:glass_panes"
+        },
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:gauge_dropper"
+      }
+})
+event.remove({output:"mekanism:geiger_counter"}) //ガイガーカウンター
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:basic_control_circuit"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:geiger_counter"
+      }
+})
+event.remove({output:"mekanism:seismic_reader"}) //弾性波解析機
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:energy_tablet"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:ingot_steel"
+        },
+        {
+          "item": "minecraft:lapis_lazuli"
+        },
+        {
+          "item": "mekanism:ingot_steel"
+        },
+        {
+          "item": "mekanism:ingot_steel"
+        },
+        {
+          "item": "mekanism:ingot_steel"
+        },
+        {
+          "item": "mekanism:ingot_steel"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:seismic_reader"
+      }
+})
+event.remove({output:"mekanism:dosimeter"}) //線量計
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "minecraft:redstone"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:dosimeter"
+      }
+})
+event.remove({output:"mekanism:canteen"}) //キャンティーン
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "minecraft:bowl"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:ingot_tin"
+        },
+        {
+          "item": "mekanism:ingot_tin"
+        },
+        {
+          "item": "mekanism:ingot_tin"
+        },
+        {
+          "item": "mekanism:ingot_tin"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:canteen"
+      }
+})
+event.remove({output:"mekanism:portable_qio_dashboard"}) //ポータブルQIOダッシュボード
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:teleportation_core"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:pellet_polonium"
+        },
+        {
+          "item": "mekanism:pellet_polonium"
+        },
+        {
+          "item": "mekanism:pellet_polonium"
+        },
+        {
+          "item": "mekanism:pellet_polonium"
+        },
+        {
+          "item": "mekanism:qio_dashboard"
+        },
+        {
+          "item": "mekanism:pellet_polonium"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:portable_qio_dashboard"
+      }
+})
+event.remove({output:"mekanism:qio_dashboard"}) //QIOダッシュボード
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:teleportation_core"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "tag": "c:glass_panes"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:qio_dashboard"
+      }
+})
+event.remove({output:"mekanism:qio_drive_base"}) //QIOドライブ
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "minecraft:ender_pearl"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        {
+          "item": "mekanism:ultimate_control_circuit"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:qio_drive_base"
+      }
+})
+event.remove({output:"mekanism:qio_drive_hyper_dense"}) //超高密集QIOドライブ
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:teleportation_core"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:pellet_plutonium"
+        },
+        {
+          "item": "mekanism:qio_drive_base"
+        },
+        {
+          "item": "mekanism:pellet_plutonium"
+        },
+        {
+          "item": "mekanism:qio_drive_base"
+        },
+        {
+          "item": "mekanism:qio_drive_base"
+        },
+        {
+          "item": "mekanism:qio_drive_base"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:qio_drive_hyper_dense"
+      }
+})
+event.remove({output:"mekanism:qio_drive_time_dilating"}) //時間拡張QIOドライブ
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:pellet_polonium"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:pellet_plutonium"
+        },
+        {
+          "item": "mekanism:qio_drive_hyper_dense"
+        },
+        {
+          "item": "mekanism:pellet_plutonium"
+        },
+        {
+          "item": "mekanism:qio_drive_hyper_dense"
+        },
+        {
+          "item": "mekanism:qio_drive_hyper_dense"
+        },
+        {
+          "item": "mekanism:qio_drive_hyper_dense"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:qio_drive_time_dilating"
+      }
+})
+event.remove({output:"mekanism:qio_drive_supermassive"}) //超大容量QIOドライブ
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:pellet_antimatter"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:pellet_polonium"
+        },
+        {
+          "item": "mekanism:qio_drive_time_dilating"
+        },
+        {
+          "item": "mekanism:pellet_polonium"
+        },
+        {
+          "item": "mekanism:qio_drive_time_dilating"
+        },
+        {
+          "item": "mekanism:qio_drive_time_dilating"
+        },
+        {
+          "item": "mekanism:qio_drive_time_dilating"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:qio_drive_supermassive"
+      }
+})
+event.remove({output:"mekanism:qio_drive_array"}) //QIOドライブ配列
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "minecraft:ender_pearl"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:teleportation_core"
+        },
+        {
+          "tag": "c:glass_panes"
+        },
+        {
+          "item": "mekanism:teleportation_core"
+        },
+        {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        {
+          "tag": "mekanism:personal_storage"
+        },
+        {
+          "item": "mekanism:ultimate_control_circuit"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:qio_drive_array"
+      }
+})
+event.remove({output:"mekanism:qio_redstone_adapter"}) //QIOレッドストーンアダプター
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:teleportation_core"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "minecraft:redstone_torch"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        {
+          "item": "minecraft:redstone"
+        },
+        {
+          "item": "mekanism:ultimate_control_circuit"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:qio_redstone_adapter"
+      }
+})
+event.remove({output:"mekanism:qio_exporter"}) //QIO搬出機
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "minecraft:piston"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "mekanism:teleportation_core"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:qio_exporter"
+      }
+})
+event.remove({output:"mekanism:qio_importer"}) //QIO搬入機
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "minecraft:sticky_piston"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "mekanism:teleportation_core"
+        },
+        {
+          "item": "mekanism:ingot_lead"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:qio_importer"
+      }
+})
 })
