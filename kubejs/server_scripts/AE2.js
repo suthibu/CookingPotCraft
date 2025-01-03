@@ -2,8 +2,8 @@ ServerEvents.recipes(event => {
 event.remove({output:'ae2:network_tool'})
 event.custom({
         "type": "farmersdelight:cooking",
-        "cookingtime": 500,
-        "experience": 0.35,
+        "cookingtime": 0,
+        "experience": 1.0,
         "ingredients": [
           {
             "tag": "ae2:illuminated_panel"
@@ -26,8 +26,8 @@ event.custom({
 event.remove({output:'ae2:matter_cannon'})
 event.custom({
       "type": "farmersdelight:cooking",
-        "cookingtime": 500,
-        "experience": 0.35,
+        "cookingtime": 0,
+        "experience": 1.0,
         "ingredients": [
           {
             "item": "minecraft:iron_ingot"
@@ -50,8 +50,8 @@ event.custom({
 event.remove({output:'ae2:controller'})
 event.custom({
   "type": "farmersdelight:cooking",
-  "cookingtime": 500,
-  "experience": 0.35,
+  "cookingtime": 0,
+  "experience": 1.0,
   "ingredients": [
     {
       "item": "ae2:smooth_sky_stone_block"
@@ -71,8 +71,8 @@ event.custom({
 event.remove({output:'ae2:color_applicator'})
 event.custom({
       "type": "farmersdelight:cooking",
-        "cookingtime": 500,
-        "experience": 0.35,
+        "cookingtime": 0,
+        "experience": 1.0,
         "ingredients": [
           {
             "item": "ae2:formation_core"
@@ -95,8 +95,8 @@ event.custom({
     event.remove({output:'ae2:entropy_manipulator'})
     event.custom({
       "type": "farmersdelight:cooking",
-        "cookingtime": 500,
-        "experience": 0.35,
+        "cookingtime": 0,
+        "experience": 1.0,
         "ingredients": [
           {
             "item": "ae2:fluix_crystal"

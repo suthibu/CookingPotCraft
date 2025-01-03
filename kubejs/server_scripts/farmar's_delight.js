@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         "count": 1,
         "id": "minecraft:water_bucket"
         },
-        "cookingtime": 200,
+        "cookingtime": 0,
         "experience": 1.0,
         "ingredients": [
           {

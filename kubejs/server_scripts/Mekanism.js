@@ -6,7 +6,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:steel_casing"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -55,7 +55,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:energized_smelter"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -89,7 +89,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:basic_smelting_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -123,7 +123,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:advanced_smelting_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -157,7 +157,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:elite_smelting_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -191,7 +191,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:enrichment_chamber"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -225,7 +225,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:basic_enriching_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -259,7 +259,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:advanced_enriching_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -293,7 +293,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:elite_enriching_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -327,7 +327,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:steel_casing"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -361,7 +361,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:crusher"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -395,7 +395,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:basic_crushing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -429,7 +429,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:advanced_crushing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -463,7 +463,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:elite_crushing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -497,7 +497,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:steel_casing"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -531,7 +531,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:osmium_compressor"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -565,7 +565,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:basic_compressing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -599,7 +599,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:advanced_compressing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -633,7 +633,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:elite_compressing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -667,7 +667,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:steel_casing"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -701,7 +701,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:combiner"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -735,7 +735,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:basic_combining_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -769,7 +769,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:advanced_combining_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -803,7 +803,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:elite_combining_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -837,7 +837,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:steel_casing"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -871,7 +871,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:purification_chamber"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -905,7 +905,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:basic_purifying_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -939,7 +939,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:advanced_purifying_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -973,7 +973,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:elite_purifying_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1007,7 +1007,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:enrichment_chamber"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1041,7 +1041,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:precision_sawmill"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1075,7 +1075,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:basic_sawing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1109,7 +1109,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:advanced_sawing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1143,7 +1143,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:elite_sawing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1177,7 +1177,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:steel_casing"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1211,7 +1211,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:metallurgic_infuser"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1245,7 +1245,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:basic_infusing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1279,7 +1279,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:advanced_infusing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1313,7 +1313,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:elite_infusing_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1347,7 +1347,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:ingot_osmium"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1381,7 +1381,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:chemical_injection_chamber"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1415,7 +1415,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:basic_injecting_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1449,7 +1449,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:advanced_injecting_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1483,7 +1483,7 @@ event.custom({
       "count": 1,
       "id": "mekanism:elite_injecting_factory"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1510,14 +1510,14 @@ event.custom({
         "id": "mekanism:ultimate_injecting_factory"
       }
 })
-event.remove({output:"mekanism:chemical_injection_chamber"})
+event.remove({output:"mekanism:chemical_injection_chamber"}) 
 event.custom({
     "type": "farmersdelight:cooking",
     "container": {
       "count": 1,
       "id": "mekanism:purification_chamber"
       },
-      "cookingtime": 200,
+      "cookingtime": 0,
       "experience": 1.0,
       "ingredients": [
         {
@@ -1542,6 +1542,139 @@ event.custom({
       "recipe_book_tab": "meals",
       "result": {
         "id": "mekanism:chemical_injection_chamber"
+      }
+})
+event.remove({output:"mekanism:energy_tablet"}) //エネルギータブレット
+event.custom({
+    "type": "farmersdelight:cooking",
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "minecraft:redstone"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "minecraft:redstone"
+        },
+        {
+          "item": "mekanism:alloy_infused"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "mekanism:alloy_infused"
+        },
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:energy_tablet"
+      }
+})
+event.remove({output:"mekanism:configurator"}) //コンフィギュレーター
+event.custom({
+    "type": "farmersdelight:cooking",
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "item": "mekanism:ingot_osmium"
+        },
+        {
+          "item": "mekanism:ingot_steel"
+        },
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:configurator"
+      }
+})
+event.remove({output:"mekanism:network_reader"}) //ネットワークリーダー
+event.custom({
+    "type": "farmersdelight:cooking",
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:alloy_infused"
+        },
+        {
+          "item": "mekanism:energy_tablet"
+        },
+        {
+          "item": "mekanism:alloy_infused"
+        },
+        {
+          "item": "mekanism:ingot_steel"
+        },
+        {
+          "tag": "c:glass_blocks/cheap"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:network_reader"
+      }
+})
+event.remove({output:"mekanism:dictionary"}) //鉱石辞書
+event.custom({
+    "type": "farmersdelight:cooking",
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:basic_control_circuit"
+        },
+        {
+          "item": "minecraft:book"
+        },
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:dictionary"
+      }
+})
+event.remove({output:"mekanism:teleportation_core"}) //テレポーテーションコア
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "minecraft:diamond"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "mekanism:alloy_atomic"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "mekanism:alloy_atomic"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        },
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:teleportation_core"
       }
 })
 })
