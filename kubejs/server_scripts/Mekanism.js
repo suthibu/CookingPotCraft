@@ -2241,3 +2241,54 @@ event.custom({
       }
 })
 })
+ServerEvents.recipes(event => {
+  /** 
+   * FarmersDelightのポットでレシピを追加する
+   * @param {String} output           完成品
+   * @param {String[]} inputs         必要なアイテム
+   * @param {String?} containerItem    容器
+   */
+  let potRecipe = (output, inputs, containerItem) => {
+      event.remove({ output: output }) //QIO搬入機
+
+      if (containerItem) {
+          event.custom({
+              "type": "farmersdelight:cooking",
+              "container": {
+                  "count": 1,
+                  "id": containerItem
+              },
+              "cookingtime": 0,
+              "experience": 1.0,
+              "ingredients": inputs.map(item => {
+                  return { "item": item }
+              }
+              ),
+              "recipe_book_tab": "meals",
+              "result": {
+                  "id": output
+              }
+          })
+      } else {
+          event.custom({
+              "type": "farmersdelight:cooking",
+              "cookingtime": 0,
+              "experience": 1.0,
+              "ingredients": inputs.map(item => {
+                  return { "item": item }
+              }
+              ),
+              "recipe_book_tab": "meals",
+              "result": {
+                  "id": output
+              }
+          })
+      }
+  }
+potRecipe("mekanism:free_runners", ["mekanism:basic_control_circuit", "mekanism:energy_tablet", "mekanism:basic_control_circuit", "mekanism:alloy_infused", "mekanism:energy_tablet", "mekanism:alloy_infused"]) //フリーランナー
+potRecipe("mekanism:free_runners_armored",["mekanism:dust_diamond","mekanism:free_runners","mekanism:dust_diamond","mekanism:ingot_bronze","mekanism:block_steel","mekanism:ingot_bronze"]) //装甲フリーランナー
+potRecipe("mekanism:meka_tool",["mekanism:ultimate_control_circuit","mekanism:configurator","mekanism:ultimate_control_circuit","mekanism:pellet_polonium","mekanism:atomic_disassembler","mekanism:pellet_polonium"],"mekanism:basic_induction_cell") //Meka-Tool
+potRecipe("mekanism:atomic_disassembler",["mekanism:alloy_infused","mekanism:energy_tablet","mekanism:alloy_infused","mekanism:alloy_infused","mekanism:alloy_atomic","mekanism:alloy_infused"],"mekanism:ingot_refined_obsidian") //原子分解機
+potRecipe("mekanism:flamethrower",["mekanism:ingot_tin","mekanism:ingot_tin","mekanism:ingot_tin","mekanism:ingot_tin","mekanism:basic_chemical_tank","minecraft:flint_and_steel"],"mekanism:advanced_control_circuit") //火炎放射器
+potRecipe("mekanism:electric_bow",["minecraft:string","minecraft:string","minecraft:string","mekanism:alloy_infused","mekanism:energy_tablet","mekanism:alloy_infused"]) //エレクトリックボウ
+})
