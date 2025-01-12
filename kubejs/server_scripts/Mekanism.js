@@ -2240,6 +2240,36 @@ event.custom({
         "id": "mekanism:qio_importer"
       }
 })
+event.remove({output:"mekanism:scuba_mask"}) //スキューバーマスク
+event.custom({
+    "type": "farmersdelight:cooking",
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:ingot_steel"
+        },
+        {
+          "item": "mekanism:ingot_steel"
+        },
+        {
+          "item": "mekanism:ingot_steel"
+        },
+        {
+          "tag": "c:glass_blocks"
+        },
+        {
+          "item": "mekanism:basic_control_circuit"
+        },
+        {
+          "tag": "c:glass_blocks"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "id": "mekanism:scuba_mask"
+      }
+})
 })
 ServerEvents.recipes(event => {
   /** 
@@ -2291,4 +2321,16 @@ potRecipe("mekanism:meka_tool",["mekanism:ultimate_control_circuit","mekanism:co
 potRecipe("mekanism:atomic_disassembler",["mekanism:alloy_infused","mekanism:energy_tablet","mekanism:alloy_infused","mekanism:alloy_infused","mekanism:alloy_atomic","mekanism:alloy_infused"],"mekanism:ingot_refined_obsidian") //原子分解機
 potRecipe("mekanism:flamethrower",["mekanism:ingot_tin","mekanism:ingot_tin","mekanism:ingot_tin","mekanism:ingot_tin","mekanism:basic_chemical_tank","minecraft:flint_and_steel"],"mekanism:advanced_control_circuit") //火炎放射器
 potRecipe("mekanism:electric_bow",["minecraft:string","minecraft:string","minecraft:string","mekanism:alloy_infused","mekanism:energy_tablet","mekanism:alloy_infused"]) //エレクトリックボウ
+potRecipe("mekanism:scuba_tank",["mekanism:alloy_infused","mekanism:basic_chemical_tank","mekanism:alloy_infused","mekanism:ingot_steel","mekanism:ingot_steel","mekanism:ingot_steel"],"mekanism:basic_control_circuit") //潜水タンク
+potRecipe("mekanism:jetpack",["mekanism:ingot_steel","mekanism:basic_chemical_tank","mekanism:ingot_steel","mekanism:ingot_tin","mekanism:ingot_tin","mekanism:ingot_tin"],"mekanism:basic_control_circuit") //ジェットパック
+potRecipe("mekanism:jetpack_armored",["mekanism:dust_diamond","mekanism:jetpack","mekanism:dust_diamond","mekanism:ingot_bronze","mekanism:block_steel","mekanism:ingot_bronze"]) //装甲ジェットパック
+potRecipe("mekanism:hdpe_elytra",["mekanism:alloy_atomic","mekanism:hdpe_sheet","mekanism:alloy_atomic","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"minecraft:elytra") //HDPE強化エリトラ
+potRecipe("mekanism:hazmat_mask",["mekanism:ingot_lead","mekanism:ingot_lead","mekanism:ingot_lead","mekanism:ingot_lead","minecraft:orange_dye","mekanism:ingot_lead"]) //防護マスク
+potRecipe("mekanism:hazmat_gown",["mekanism:ingot_lead","minecraft:orange_dye","mekanism:ingot_lead","mekanism:ingot_lead","mekanism:ingot_lead","mekanism:ingot_lead"],"mekanism:ingot_lead") //防護ガウン
+potRecipe("mekanism:hazmat_pants",["mekanism:ingot_lead","mekanism:ingot_lead","mekanism:ingot_lead","mekanism:ingot_lead","mekanism:ingot_lead","mekanism:ingot_lead"],"minecraft:orange_dye") //防護パンツ
+potRecipe("mekanism:hazmat_boots",["mekanism:ingot_lead","minecraft:black_dye","mekanism:ingot_lead","mekanism:ingot_lead","minecraft:black_dye","mekanism:ingot_lead"]) //防護ブーツ
+potRecipe("mekanism:mekasuit_helmet",["mekanism:hdpe_sheet","mekanism:ultimate_control_circuit","mekanism:hdpe_sheet","mekanism:pellet_polonium","mekanism:basic_induction_cell","mekanism:pellet_polonium"],"minecraft:netherite_helmet") //MekaSuitヘルメット
+potRecipe("mekanism:mekasuit_bodyarmor",["mekanism:hdpe_sheet","mekanism:ultimate_control_circuit","mekanism:hdpe_sheet","mekanism:pellet_polonium","mekanism:basic_induction_cell","mekanism:pellet_polonium"],"minecraft:netherite_chestplate") //MekaSuitボディアーマー
+potRecipe("mekanism:mekasuit_pants",["mekanism:hdpe_sheet","mekanism:ultimate_control_circuit","mekanism:hdpe_sheet","mekanism:pellet_polonium","mekanism:basic_induction_cell","mekanism:pellet_polonium"],"minecraft:netherite_leggings") //MekaSuitパンツ
+potRecipe("mekanism:mekasuit_boots",["mekanism:hdpe_sheet","mekanism:ultimate_control_circuit","mekanism:hdpe_sheet","mekanism:pellet_polonium","mekanism:basic_induction_cell","mekanism:pellet_polonium"],"minecraft:netherite_boots") //MekaSuitブーツ
 })
