@@ -2270,6 +2270,41 @@ event.custom({
         "id": "mekanism:scuba_mask"
       }
 })
+event.remove({output:"mekanism:module_base"}) //モジュールベース
+event.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+      "count": 1,
+      "id": "mekanism:hdpe_sheet"
+      },
+      "cookingtime": 0,
+      "experience": 1.0,
+      "ingredients": [
+        {
+          "item": "mekanism:nugget_bronze"
+        },
+        {
+          "item": "mekanism:ingot_tin"
+        },
+        {
+          "item": "mekanism:nugget_bronze"
+        },
+        {
+          "item": "mekanism:ingot_tin"
+        },
+        {
+          "item": "mekanism:nugget_bronze"
+        },
+        {
+          "item": "mekanism:ingot_tin"
+        }
+      ],
+      "recipe_book_tab": "meals",
+      "result": {
+        "count": 2,
+        "id": "mekanism:module_base"
+      }
+})
 })
 ServerEvents.recipes(event => {
   /** 
@@ -2279,7 +2314,7 @@ ServerEvents.recipes(event => {
    * @param {String?} containerItem    容器
    */
   let potRecipe = (output, inputs, containerItem) => {
-      event.remove({ output: output }) //QIO搬入機
+      event.remove({ output: output })
 
       if (containerItem) {
           event.custom({
@@ -2333,4 +2368,16 @@ potRecipe("mekanism:mekasuit_helmet",["mekanism:hdpe_sheet","mekanism:ultimate_c
 potRecipe("mekanism:mekasuit_bodyarmor",["mekanism:hdpe_sheet","mekanism:ultimate_control_circuit","mekanism:hdpe_sheet","mekanism:pellet_polonium","mekanism:basic_induction_cell","mekanism:pellet_polonium"],"minecraft:netherite_chestplate") //MekaSuitボディアーマー
 potRecipe("mekanism:mekasuit_pants",["mekanism:hdpe_sheet","mekanism:ultimate_control_circuit","mekanism:hdpe_sheet","mekanism:pellet_polonium","mekanism:basic_induction_cell","mekanism:pellet_polonium"],"minecraft:netherite_leggings") //MekaSuitパンツ
 potRecipe("mekanism:mekasuit_boots",["mekanism:hdpe_sheet","mekanism:ultimate_control_circuit","mekanism:hdpe_sheet","mekanism:pellet_polonium","mekanism:basic_induction_cell","mekanism:pellet_polonium"],"minecraft:netherite_boots") //MekaSuitブーツ
+//mekasuitアップグレード
+potRecipe("mekanism:module_radiation_shielding_unit",["mekanism:alloy_infused","mekanism:block_lead","mekanism:alloy_infused","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"mekanism:module_base") //放射線保護ユニット
+potRecipe("mekanism:module_energy_unit",["mekanism:alloy_infused","mekanism:basic_induction_cell","mekanism:alloy_infused","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"mekanism:module_base") //エネルギーユニット
+potRecipe("mekanism:module_color_modulation_unit",["mekanism:pigment_mixer","mekanism:laser","mekanism:pigment_mixer","mekanism:painting_machine","mekanism:hdpe_sheet","mekanism:painting_machine"],"mekanism:module_base") //色彩変更ユニット
+potRecipe("mekanism:module_laser_dissipation_unit",["mekanism:alloy_infused","mekanism:laser_amplifier","mekanism:alloy_infused","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"mekanism:module_base") //レーザー散拡ユニット
+potRecipe("mekanism:module_shearing_unit",["mekanism:alloy_infused","minecraft:shears","mekanism:alloy_infused","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"mekanism:module_base") //剪断ユニット
+potRecipe("mekanism:module_farming_unit",["mekanism:alloy_infused","minecraft:iron_hoe","mekanism:alloy_infused","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"mekanism:module_base") //耕作ユニット
+potRecipe("mekanism:module_attack_amplification_unit",["mekanism:alloy_infused","minecraft:iron_sword","mekanism:alloy_infused","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"mekanism:module_base") //攻撃力増強ユニット
+potRecipe("mekanism:module_excavation_escalation_unit",["mekanism:alloy_infused","minecraft:iron_pickaxe","mekanism:alloy_infused","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"mekanism:module_base") //採掘慚増ユニット
+potRecipe("mekanism:module_geiger_unit",["mekanism:alloy_infused","mekanism:geiger_counter","mekanism:alloy_infused","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"mekanism:module_base") //ガイガーユニット
+potRecipe("mekanism:module_dosimeter_unit",["mekanism:alloy_infused","mekanism:dosimeter","mekanism:alloy_infused","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"mekanism:module_base") //線量計ユニット
+potRecipe("mekanism:module_electrolytic_breathing_unit",["mekanism:alloy_infused","mekanism:electrolytic_core","mekanism:alloy_infused","mekanism:hdpe_sheet","mekanism:hdpe_sheet","mekanism:hdpe_sheet"],"mekanism:module_base") //電解呼吸ユニット
 })
