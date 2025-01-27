@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "4C88FDFB2CA3ACBD"
+	icon: {
+		id: "mekanism:ultimate_control_circuit"
+	}
+	id: "702D361EA05747D7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

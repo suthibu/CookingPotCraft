@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "41E43ACBFC91117D"
+	group: "4C88FDFB2CA3ACBD"
+	icon: {
+		id: "functionalstorage:oak_1"
+	}
+	id: "41E43ACBFC91117D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,11 +1,38 @@
 {
+	chapter.00A24F9F602FDD79.title: "物流"
+	chapter.0958F3C3EB14423E.title: "Farmer's Delight"
+	chapter.17D2FE5516775F84.title: "Relics"
+	chapter.1C8F7A47FEBC6431.title: "チャンクローダー"
+	chapter.41E43ACBFC91117D.title: "ストレージ"
+	chapter.4386B80C7241F840.title: "目標"
 	chapter.4B43026B4BE85BA3.title: "鍋だらけ"
+	chapter.5003798FB316E5E4.title: "Actually Additions"
+	chapter.55EB4DB778A242EF.title: "&#7D44FFM&#8442FFe&#8A40FFk&#913EFFa&#983CFFn&#9E3AFFi&#A539FFs&#AB37FFm&#B235FF:&#B933FF上&#BF31FF級&#C62FFF編"
+	chapter.6EB2EE7FA14DD61B.title: "はじめに"
+	chapter.702D361EA05747D7.title: "Mekanism"
+	chapter.73EC0D6F5044CD0E.title: "Applied Energistics 2"
+	chapter_group.3D3C9F072E7AAF2E.title: "番外編"
+	chapter_group.4C88FDFB2CA3ACBD.title: "工業"
 	file.0000000000000001.title: "CPC"
 	quest.157478324A7539A3.quest_subtitle: "加熱っ"
 	quest.268B6C918F056728.quest_subtitle: "コレが最後ですよ"
 	quest.2E0A99D6BA19A825.title: "最終目標2"
 	quest.2F6404A46BE3035C.quest_subtitle: "この世界ではたくさんのレシピが鍋化されています"
+	quest.5772F11B61FCFEC1.title: "エンパワ〜〜〜〜〜"
+	quest.57B5092963855BFA.quest_desc: [
+		"Actually Additon(通称:AA)は1.12.2から返り咲いた系のMOD主は1.21.1で初めて触れて惚れました。"
+		"かゆいところに手が届く便利なMOD簡単な自動化はお任せを。"
+	]
+	quest.57B5092963855BFA.title: "孫の手的存在"
+	quest.674F55C15017CB5F.quest_desc: [
+		"&lAppliedEnergistics2&r(通称:Æ2)は&b革新的な大型倉庫&rを提供してくれるMODです。"
+		"最初こそ難しいと感じるかもしれませんが、味方にしてしまえば拠点の倉庫がごちゃごちゃすることはなくなるでしょう。"
+	]
+	quest.674F55C15017CB5F.title: "〜大型倉庫の始まり〜"
 	quest.70A8D635910E295A.title: "最終目標1"
 	task.30AB76A96FB8879A.title: "無くしちゃったのかい？"
+	task.35647EA6F4B6FA0B.title: "特殊な鉱石たち"
 	task.429703C31D14E75B.title: "鍋だらけの世界にようこそ"
+	task.77284931C01102B4.title: "Applied Energistics 2 "
+	task.79421AFFF958DF73.title: "Actually Addition"
 }

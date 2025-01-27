@@ -1,0 +1,99 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: "3D3C9F072E7AAF2E"
+	icon: {
+		components: {
+			"relics:data": {
+				abilities: {
+					abilities: {
+						belief: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								amount: {
+									initialValue: 0.15067d
+								}
+								capacity: {
+									initialValue: 9.60571d
+								}
+								count: {
+									initialValue: 1.30748d
+								}
+								radius: {
+									initialValue: 4.85927d
+								}
+							}
+						}
+						blessing: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 1b
+							}
+							lock: {
+								breaks: 0
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								consumption: {
+									initialValue: 7.2969d
+								}
+							}
+						}
+						repentance: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 0
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								damage: {
+									initialValue: 0.17401d
+								}
+								radius: {
+									initialValue: 4.67937d
+								}
+							}
+						}
+					}
+				}
+				leveling: {
+					experience: 0
+					level: 0
+					luck: 0
+					points: 0
+				}
+			}
+		}
+		id: "relics:holy_locket"
+	}
+	id: "17D2FE5516775F84"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

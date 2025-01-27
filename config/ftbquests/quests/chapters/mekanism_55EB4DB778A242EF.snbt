@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_55EB4DB778A242EF"
+	group: "4C88FDFB2CA3ACBD"
+	icon: {
+		id: "mekanism:pellet_antimatter"
+	}
+	id: "55EB4DB778A242EF"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+}

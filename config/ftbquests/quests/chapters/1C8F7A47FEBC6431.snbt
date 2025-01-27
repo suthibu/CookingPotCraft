@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1C8F7A47FEBC6431"
+	group: "3D3C9F072E7AAF2E"
+	icon: {
+		id: "chunkloaders:advanced_chunk_loader"
+	}
+	id: "1C8F7A47FEBC6431"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

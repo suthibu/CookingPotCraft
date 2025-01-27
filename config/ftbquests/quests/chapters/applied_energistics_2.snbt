@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: "4C88FDFB2CA3ACBD"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "73EC0D6F5044CD0E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "674F55C15017CB5F"
+		tasks: [{
+			id: "77284931C01102B4"
+			type: "checkmark"
+		}]
+		x: -4.5d
+		y: -0.5d
+	}]
+}
