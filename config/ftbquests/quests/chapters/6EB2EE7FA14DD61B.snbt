@@ -4,6 +4,14 @@
 	filename: "6EB2EE7FA14DD61B"
 	group: ""
 	id: "6EB2EE7FA14DD61B"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/png/cpc.png"
+		rotation: 0.0d
+		width: 5.648876404494382d
+		x: 0.0d
+		y: -4.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]

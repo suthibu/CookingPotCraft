@@ -149,19 +149,27 @@
 				item: { count: 1, id: "actuallyadditions:leaf_generator" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 14.0d
+			x: 0.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["7AE8E5D362F64C51"]
 			id: "75DDBBFEADDBA7F8"
-			tasks: [{
-				id: "64FEADD974B74E76"
-				item: { count: 1, id: "actuallyadditions:lava_factory_controller" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 10.5d
+			tasks: [
+				{
+					id: "64FEADD974B74E76"
+					item: { count: 1, id: "actuallyadditions:lava_factory_controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4924967068C1F3F9"
+					item: { count: 4, id: "actuallyadditions:lava_factory_casing" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7AE8E5D362F64C51"]
@@ -171,8 +179,8 @@
 				item: { count: 1, id: "actuallyadditions:enervator" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 11.0d
+			x: -1.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7AE8E5D362F64C51"]
@@ -182,8 +190,8 @@
 				item: { count: 1, id: "actuallyadditions:energizer" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 12.3d
+			x: -1.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7AE8E5D362F64C51"]
@@ -205,7 +213,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 14.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1D4EC43FC32D982F"]
@@ -331,13 +339,21 @@
 		{
 			dependencies: ["7AE8E5D362F64C51"]
 			id: "17C51213995B0A48"
+			rewards: [{
+				id: "481E4A21755FB28C"
+				item: {
+					count: 1
+					id: "actuallyadditions:coffee_cup"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "481F27A43240CABA"
 				item: { count: 1, id: "actuallyadditions:coffee_machine" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 11.5d
+			x: -2.0d
+			y: 12.3d
 		}
 		{
 			dependencies: ["7AE8E5D362F64C51"]
@@ -381,8 +397,8 @@
 				item: { count: 1, id: "actuallyadditions:battery_box" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 13.5d
+			x: -1.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7AE8E5D362F64C51"]
@@ -626,15 +642,58 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["75DDBBFEADDBA7F8"]
-			id: "25390671EE04E73F"
+			dependencies: ["7E28346DCEA1A60C"]
+			id: "1B31C1874664BCF6"
 			tasks: [{
-				id: "6F1C5D5077B6853A"
-				item: { count: 1, id: "actuallyadditions:lava_factory_casing" }
+				id: "700E4C51F48C9C18"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1B31C1874664BCF6"]
+			id: "1B6BF42369CA8784"
+			tasks: [{
+				id: "1B50D65EF8D0E031"
+				item: { count: 1, id: "actuallyadditions:single_battery" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 9.5d
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1B6BF42369CA8784"]
+			id: "5017FC32F2372B8D"
+			tasks: [{
+				id: "7C4389FE7527CE8A"
+				item: { count: 1, id: "actuallyadditions:double_battery" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5017FC32F2372B8D"]
+			id: "5B53618110756281"
+			tasks: [{
+				id: "65AF66617FE8CC9C"
+				item: { count: 1, id: "actuallyadditions:triple_battery" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5B53618110756281"]
+			id: "3177241FC2B5FD21"
+			tasks: [{
+				id: "7677D2E04F7EA9E3"
+				item: { count: 1, id: "actuallyadditions:quadruple_battery" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.5d
 		}
 	]
 }
