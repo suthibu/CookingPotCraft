@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pylons"
+	group: "3D3C9F072E7AAF2E"
+	icon: {
+		id: "pylons:harvester_pylon"
+	}
+	id: "41A4BB35ABE3BB21"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

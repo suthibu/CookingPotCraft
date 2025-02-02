@@ -1,0 +1,429 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "26A853F6DA6ADCD4"
+	group: "4C88FDFB2CA3ACBD"
+	icon: {
+		id: "solargeneration:solar_panel_ultimate"
+	}
+	id: "26A853F6DA6ADCD4"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1D944F79BD2F062D"
+			tasks: [{
+				id: "44B1442AEE1295D1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D944F79BD2F062D"]
+			id: "3303BB0835ECC662"
+			tasks: [{
+				id: "35DEBF35C80ABCA5"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D944F79BD2F062D"]
+			id: "03B513D99134804A"
+			tasks: [{
+				id: "17CF130C62308856"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3303BB0835ECC662"]
+			id: "35332AC6085A9A00"
+			tasks: [{
+				id: "1BCE5231C80CA47E"
+				item: { count: 1, id: "solarflux:mirror" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35332AC6085A9A00"]
+			id: "56B310E9B5A5C0CA"
+			tasks: [{
+				id: "41C4B74F0C4BE78E"
+				item: { count: 1, id: "solarflux:photovoltaic_cell_1" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["56B310E9B5A5C0CA"]
+			id: "79F117DD6B98CD7A"
+			tasks: [{
+				id: "0CCD4694AF001166"
+				item: { count: 1, id: "solarflux:photovoltaic_cell_2" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79F117DD6B98CD7A"]
+			id: "7B5572CD0E422BA8"
+			tasks: [{
+				id: "76E37F9BE0DC2ECD"
+				item: { count: 1, id: "solarflux:photovoltaic_cell_3" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B5572CD0E422BA8"]
+			id: "049075688BA5F75A"
+			tasks: [{
+				id: "2CBF200E476CB15F"
+				item: { count: 1, id: "solarflux:photovoltaic_cell_4" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["049075688BA5F75A"]
+			id: "77D011464C9175B7"
+			tasks: [{
+				id: "55E4693D4B15F7C2"
+				item: { count: 1, id: "solarflux:photovoltaic_cell_5" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["77D011464C9175B7"]
+			id: "59FAF872DF726588"
+			tasks: [{
+				id: "0CA9DBE7556B8D01"
+				item: { count: 1, id: "solarflux:photovoltaic_cell_6" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35332AC6085A9A00"]
+			id: "68C8CFBC91DBA08B"
+			tasks: [{
+				id: "2BE0219202D7F5A7"
+				item: { count: 1, id: "solarflux:sp_1" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68C8CFBC91DBA08B"]
+			id: "61FAF4A0968A6CEE"
+			tasks: [{
+				id: "29841B4EB97AB63B"
+				item: { count: 1, id: "solarflux:sp_2" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"56B310E9B5A5C0CA"
+				"61FAF4A0968A6CEE"
+			]
+			id: "03201186E77C863D"
+			tasks: [{
+				id: "46F052753CC3B982"
+				item: { count: 1, id: "solarflux:sp_3" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"79F117DD6B98CD7A"
+				"03201186E77C863D"
+			]
+			id: "1BAE7EED31632695"
+			tasks: [{
+				id: "5B80FC915BD50966"
+				item: { count: 1, id: "solarflux:sp_4" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7B5572CD0E422BA8"
+				"1BAE7EED31632695"
+			]
+			id: "33D1A09ACBD4DEED"
+			tasks: [{
+				id: "78806CE437FF737D"
+				item: { count: 1, id: "solarflux:sp_5" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"049075688BA5F75A"
+				"33D1A09ACBD4DEED"
+			]
+			id: "618C39B3194B4FFC"
+			tasks: [{
+				id: "7AF309064A3AC957"
+				item: { count: 1, id: "solarflux:sp_6" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"618C39B3194B4FFC"
+				"77D011464C9175B7"
+			]
+			id: "590F64713D848BED"
+			tasks: [{
+				id: "601F37995EB1C985"
+				item: { count: 1, id: "solarflux:sp_7" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"59FAF872DF726588"
+				"590F64713D848BED"
+			]
+			id: "529D072B895016A2"
+			tasks: [{
+				id: "45E3ACC5E246123C"
+				item: { count: 1, id: "solarflux:sp_8" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68C8CFBC91DBA08B"]
+			id: "456E0E873E6B0A43"
+			tasks: [{
+				id: "19779058F64EE692"
+				item: { count: 1, id: "solargeneration:solar_core_leadstone" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"03201186E77C863D"
+				"456E0E873E6B0A43"
+			]
+			id: "135D5E5360948FD2"
+			tasks: [{
+				id: "2BA673E4A3E6BC88"
+				item: { count: 1, id: "solargeneration:solar_core_hardened" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1BAE7EED31632695"
+				"135D5E5360948FD2"
+			]
+			id: "29B52922F5AC4AD5"
+			tasks: [{
+				id: "793099A6A8632E5E"
+				item: { count: 1, id: "solargeneration:solar_core_redstone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"29B52922F5AC4AD5"
+				"33D1A09ACBD4DEED"
+			]
+			id: "00A7AC27996CACE4"
+			tasks: [{
+				id: "0F11ADF415B23D5A"
+				item: { count: 1, id: "solargeneration:solar_core_signalum" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"00A7AC27996CACE4"
+				"618C39B3194B4FFC"
+			]
+			id: "457C48793CF7D893"
+			tasks: [{
+				id: "578EE4D7E904D636"
+				item: { count: 1, id: "solargeneration:solar_core_resonant" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"457C48793CF7D893"
+				"590F64713D848BED"
+			]
+			id: "55BC372994CD1B03"
+			tasks: [{
+				id: "3911B141164B95B5"
+				item: { count: 1, id: "solargeneration:solar_core_advanced" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"55BC372994CD1B03"
+				"529D072B895016A2"
+			]
+			id: "715FE21BD1BF6C62"
+			tasks: [{
+				id: "13ADC8A1ED3A46A0"
+				item: { count: 1, id: "solargeneration:solar_core_ultimate" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "549ABDAFC01A8325"
+			tasks: [{
+				id: "2E457EF213FEBB5B"
+				item: { count: 1, id: "solargeneration:photovoltaic_cell" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"456E0E873E6B0A43"
+				"549ABDAFC01A8325"
+			]
+			id: "38982DABFEF28B22"
+			tasks: [{
+				id: "70656B26C3AEDEDB"
+				item: { count: 1, id: "solargeneration:solar_panel_leadstone" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"135D5E5360948FD2"
+				"38982DABFEF28B22"
+			]
+			id: "62945709485E6103"
+			tasks: [{
+				id: "42360380C4CCBEB4"
+				item: { count: 1, id: "solargeneration:solar_panel_hardened" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"29B52922F5AC4AD5"
+				"62945709485E6103"
+			]
+			id: "6BF7991FD4D293D7"
+			tasks: [{
+				id: "092AFD3CA77A369E"
+				item: { count: 1, id: "solargeneration:solar_panel_redstone" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"00A7AC27996CACE4"
+				"6BF7991FD4D293D7"
+			]
+			id: "222245ABDF4D279A"
+			tasks: [{
+				id: "1769F71B68FA6960"
+				item: { count: 1, id: "solargeneration:solar_panel_signalum" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"222245ABDF4D279A"
+				"457C48793CF7D893"
+			]
+			id: "07E7DD96FB693E74"
+			tasks: [{
+				id: "7216DDB564A3213A"
+				item: { count: 1, id: "solargeneration:solar_panel_resonant" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"55BC372994CD1B03"
+				"07E7DD96FB693E74"
+			]
+			id: "0F1C40186318DE04"
+			tasks: [{
+				id: "56ECE14EC8DF3FAB"
+				item: { count: 1, id: "solargeneration:solar_panel_advanced" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0F1C40186318DE04"
+				"715FE21BD1BF6C62"
+			]
+			id: "5576E768D7DB86F3"
+			tasks: [{
+				id: "2081F582B2889CEB"
+				item: { count: 1, id: "solargeneration:solar_panel_ultimate" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+	]
+}

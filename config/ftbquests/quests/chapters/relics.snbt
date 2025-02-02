@@ -93,7 +93,7 @@
 		id: "relics:holy_locket"
 	}
 	id: "17D2FE5516775F84"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
 }

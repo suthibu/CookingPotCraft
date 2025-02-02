@@ -9,13 +9,51 @@
 	id: "73EC0D6F5044CD0E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "674F55C15017CB5F"
-		tasks: [{
-			id: "77284931C01102B4"
-			type: "checkmark"
-		}]
-		x: -4.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			id: "674F55C15017CB5F"
+			tasks: [{
+				id: "77284931C01102B4"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["674F55C15017CB5F"]
+			id: "7FB466A85422D03A"
+			tasks: [{
+				id: "240D7535D0AC26AD"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FB466A85422D03A"]
+			id: "6B3219E6CD6A991C"
+			rewards: [{
+				id: "73984E964317EF9D"
+				item: {
+					count: 1
+					id: "ae2:guide"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36BB5699CFBFB6EB"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+				{
+					id: "64623F421E7F9E5B"
+					item: { count: 1, id: "ae2:crank" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+	]
 }

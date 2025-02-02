@@ -71,4 +71,17 @@ event.shaped( //ultimate solar core
         B:"solarflux:sp_8"
     }
 )
+event.remove({output:"solargeneration:solar_core_leadstone"})
+event.shaped( //ledstone solar core
+    Item.of("solargeneration:solar_core_leadstone"),
+    [
+        " A ",
+        "ABA",
+        " A "
+    ],
+    {
+        A:"solarflux:mirror",
+        B:"solarflux:sp_1"
+    }
+)
 })
