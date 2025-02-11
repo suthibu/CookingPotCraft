@@ -8,6 +8,29 @@
 			"relics:data": {
 				abilities: {
 					abilities: {
+						ascension: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 0
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								duration: {
+									initialValue: 0.79004d
+								}
+								max_duration: {
+									initialValue: 7.99121d
+								}
+							}
+						}
 						belief: {
 							extender: {
 								cooldown: 0
@@ -54,6 +77,52 @@
 							stats: {
 								consumption: {
 									initialValue: 7.2969d
+								}
+							}
+						}
+						faith: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								damage: {
+									initialValue: 0.27578d
+								}
+								health: {
+									initialValue: 0.20765d
+								}
+								radius: {
+									initialValue: 9.72452d
+								}
+							}
+						}
+						penitence: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 0
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								amount: {
+									initialValue: 0.32322d
 								}
 							}
 						}

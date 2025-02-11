@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4B1BBE53FBAE63DF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "26A853F6DA6ADCD4"
@@ -424,6 +425,113 @@
 			}]
 			x: 10.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["1D944F79BD2F062D"]
+			id: "675A21A54369E842"
+			tasks: [{
+				id: "5483CA093AD6819A"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["675A21A54369E842"]
+			id: "4B1BBE53FBAE63DF"
+			tasks: [{
+				id: "5B80765EA61C517A"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B1BBE53FBAE63DF"]
+			id: "40F8754CF2404AFF"
+			tasks: [{
+				id: "69E95DCC65620B2D"
+				item: { count: 1, id: "allthemodium:teleport_pad" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B1BBE53FBAE63DF"]
+			id: "68D5A79B95E9C4FB"
+			tasks: [{
+				id: "0F80A9FD36E131B1"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B1BBE53FBAE63DF"]
+			id: "22A17B233D32790B"
+			tasks: [{
+				id: "07E43A458239E592"
+				item: { count: 1, id: "rftoolsbuilder:builder" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B1BBE53FBAE63DF"]
+			id: "71DB14638A359B05"
+			tasks: [{
+				id: "43EE0E0874BFDE89"
+				item: { count: 1, id: "rftoolsbuilder:builder" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B1BBE53FBAE63DF"]
+			id: "3B0898217CC114E2"
+			tasks: [{
+				id: "39C8DA2D71CF353D"
+				item: { count: 1, id: "quarryplus:adv_quarry" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B1BBE53FBAE63DF"]
+			id: "414780A034E1B47E"
+			tasks: [{
+				id: "03F2859579B701E4"
+				item: { count: 1, id: "quarryplus:quarry" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["414780A034E1B47E"]
+			id: "0EF863FC2E3CFC65"
+			tasks: [{
+				id: "11618A33ED66DE4F"
+				item: { count: 1, id: "quarryplus:mover" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D944F79BD2F062D"]
+			id: "31B3A039447C45C0"
+			tasks: [{
+				id: "4CE6E8614B800FC5"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 }

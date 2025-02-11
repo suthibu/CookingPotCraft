@@ -3,7 +3,7 @@
 	chapter.0958F3C3EB14423E.title: "Farmer's Delight"
 	chapter.17D2FE5516775F84.title: "Relics"
 	chapter.1C8F7A47FEBC6431.title: "チャンクローダー"
-	chapter.26A853F6DA6ADCD4.title: "資源＆発電"
+	chapter.26A853F6DA6ADCD4.title: "資源とあなた"
 	chapter.41A4BB35ABE3BB21.title: "Pylons"
 	chapter.41E43ACBFC91117D.title: "ストレージ"
 	chapter.4386B80C7241F840.title: "目標"
@@ -19,6 +19,14 @@
 	quest.00F2863CF63A78AE.quest_desc: ["&#26FF4D色&#41EA49の&#5CD646つ&#77C142い&#93AC3Fて&#AE973Bる&#C98337ア&#E46E34イ&#FF5930テ&#EF6730ム&#DF7530や&#CF8230ブ&#BF9030ロ&#AF9E30ッ&#9FAC30ク&#8FB930に&#7FC730当&#8DB04Aて&#9B9964る&#A9827Eと&#B76B98色&#C453B1を&#D23CCB変&#E025E5え&#EE0EFFら&#D40FFCれ&#BA10F9ま&#A011F6す&#8712F3。&#6D12F0カ&#5313EDラ&#3914EAフ&#1F15E7ル"]
 	quest.03B513D99134804A.quest_desc: ["サトウキビで資源を増やそう"]
 	quest.03B513D99134804A.title: "&2サトウキビの栽培"
+	quest.0EF863FC2E3CFC65.quest_desc: [
+		"みんな大好きクアリーにエンチャントを移すことができます。"
+		"ダイヤピッケルにエンチャントをして台にセットしたら任意のエンチャントを移せます"
+		"シルクタッチ:鉱石がそのままの状態で出てくる"
+		"幸運:鉱石の量が増える"
+		"効率強化:速度が速くなる"
+		"耐久力増加:電力の消費量が減る"
+	]
 	quest.157478324A7539A3.quest_subtitle: "加熱っ"
 	quest.178374E49BA7DEFF.quest_desc: [
 		"とっても早い2連かまど"
@@ -38,14 +46,19 @@
 	quest.2E0A99D6BA19A825.title: "最終目標2"
 	quest.2F6404A46BE3035C.quest_subtitle: "この世界ではたくさんのレシピが鍋化されています"
 	quest.2FE29271873563EF.quest_desc: ["なんと葉っぱを食べて発電できます"]
+	quest.31B3A039447C45C0.quest_desc: ["Hostile Neural Networks(通称HNN)はモブのデータを集めてドロップを機械で取り出せるようにするmodです"]
 	quest.3303BB0835ECC662.title: "&l&o&#FB0000S&#F77100o&#F4E300l&#ACFF00a&#4DFF00r &#17FC30P&#0AF591a&#00D6DEn&#006CEFe&#0003FFl&r"
 	quest.394AD97B581EB4D5.quest_desc: ["文字通り&l「粉砕」&rします"]
+	quest.40F8754CF2404AFF.quest_desc: ["両手とも何も持たずにシフト右クリックしよう。そしたら採掘ディメンションにいけます。"]
+	quest.40F8754CF2404AFF.quest_subtitle: "ほら土地よ！"
+	quest.414780A034E1B47E.quest_desc: [" みんな大好きクアリーにエンチャントを移すことができます。"]
 	quest.42950FC0EF7EB3D9.quest_desc: ["花火を盛大に打ち上げたいときの救世主！一度作ってしまえば大量の花火をぶっ放せる&l&#FF0000ウ&#FF4000ル&#FE8000ト&#FEBF00ラ&#FDFF00・&#BEF10Aエ&#7FE315キ&#3FD51Fサ&#00C729イ&#00D55Eテ&#00E393ィ&#00F1C7ン&#00FFFCグ&#20BFF7ブ&#3F80F2ロ&#5F40ECッ&#7E00E7ク&r&o"]
 	quest.450B7C501D7956E7.quest_desc: ["もっとたくさん粉砕"]
 	quest.49D09EB4A6B863EA.quest_desc: [
 		"植物で発電"
 		"エコ"
 	]
+	quest.4B1BBE53FBAE63DF.quest_desc: ["機械に地面を掘ってもらおう！きっと楽しいはずだ"]
 	quest.52074686079CBF58.quest_desc: ["任意のアイテムから&bエネルギーを吸い取る&rことができます"]
 	quest.52689AA7A59E715B.quest_desc: ["任意の&bアイテムを充電&rすることができます"]
 	quest.5752065E659764C2.quest_desc: ["この機械にエネルギーを供給すると置いたのその下のブロックを5x5のサイズでY0まで直下堀してくれます。"]
@@ -65,6 +78,10 @@
 		"最初こそ難しいと感じるかもしれませんが、味方にしてしまえば拠点の倉庫がごちゃごちゃすることはなくなるでしょう。"
 	]
 	quest.674F55C15017CB5F.title: "〜大型倉庫の始まり〜"
+	quest.675A21A54369E842.quest_desc: [
+		"資源を得られる様子を視覚的に体感できる方法が沈没。"
+		"掘りまくろう"
+	]
 	quest.6B3219E6CD6A991C.quest_desc: [
 		"コンパスをチャージして隕石コンパスを作ろう"
 		"Æ2にはなんとガイドがついています！(英語ですが)"
@@ -98,7 +115,10 @@
 	task.35647EA6F4B6FA0B.title: "特殊な鉱石たち"
 	task.35DEBF35C80ABCA5.title: "Solar Panel"
 	task.429703C31D14E75B.title: "鍋だらけの世界にようこそ"
-	task.44B1442AEE1295D1.title: "資源と発電"
+	task.44B1442AEE1295D1.title: "資源と発電と夢"
+	task.4CE6E8614B800FC5.title: "Hostile Neural Networks"
+	task.5483CA093AD6819A.title: "世界を「沈没」させよう"
+	task.5B80765EA61C517A.title: "採掘のすゝめ"
 	task.700E4C51F48C9C18.title: "バッテリー"
 	task.77284931C01102B4.title: "Applied Energistics 2 "
 	task.79421AFFF958DF73.title: "Actually Addition"
