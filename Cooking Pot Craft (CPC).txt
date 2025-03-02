@@ -65,6 +65,7 @@ FTB Ultimine
 FTB XMod Compat
 FancyMenu
 Farmer's Delight
+Farming for Blockheads
 Fast Workbench
 FastFurnace
 FastLeafDecay
@@ -120,6 +121,10 @@ ModernFix
 Modular Routers
 More Mekanism Processing
 Mouse Tweaks
+Mystical Agradditions
+Mystical Agriculture
+Mystical Agriculture Tiered Crystals
+Mystical Customization
 OctoLib
 Patchouli
 Pipez
@@ -135,6 +140,7 @@ RFToolsBase
 RFToolsBuilder
 Reese's Sodium Options
 Relics
+Reliquary Reincarnations
 Rhino
 Scalable Cat's Force
 Seamless Loading Screen
