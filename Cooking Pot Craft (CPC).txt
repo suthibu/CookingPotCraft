@@ -1,0 +1,168 @@
+AE2 JEI Integration
+AE2 MEGA Things
+AE2 Things
+AE2 Tweaks
+AE2NetworkAnalyzer
+Actually Additions
+Advanced AE
+AllTheCompressed
+Allthemodium
+Almanac
+AppleSkin
+Applied Energistics 2
+Applied Experienced
+Applied Mekanistics
+AppliedFlux
+Architectury
+BadOptimizations
+Balm
+Better Tags
+BetterF3
+Bigger AE2
+Bookshelf
+CBMultipart
+Chunk Loaders
+Cloth Config v15 API
+Clumps
+Cobblegen Galore
+CodeChicken Lib
+Collective
+CommonCapabilities
+Compact Machines
+Concurrent Chunk Management Engine
+ConnectedTexturesMod
+Controlling
+Cooking for Blockheads
+Corpse
+Crafting On A Stick
+Crafting Tweaks
+Cucumber Library
+CullLeaves
+Cupboard mod
+Curios API
+Cyclops Core
+Dank Storage
+Drippy Loading Screen
+EMI
+EMI Loot
+EMI Ores
+Easy Piglins
+Easy Villagers
+EdivadLib
+EnchantmentDescriptions
+Entangled
+Entity Model Features
+Entity Texture Features
+ExperienceLib
+Extended Crafting
+ExtendedAE
+FTB Backups 2
+FTB Essentials
+FTB Library
+FTB Quests
+FTB Teams
+FTB Ultimine
+FTB XMod Compat
+FancyMenu
+Farmer's Delight
+Fast Workbench
+FastFurnace
+FastLeafDecay
+Ferrite Core
+Fluid Tank
+Flux Networks
+ForgeEndertech
+Freecam
+Functional Storage
+Fzzy Config
+GeckoLib 4
+Glodium
+GuideME
+HammerLib
+Hostile Neural Networks
+ImmediatelyFast
+IntegratedDynamics
+IntegratedTunnels
+Inventory Profiles Next
+Iris
+Iron Chests
+Iron Furnaces
+Iron Jetpacks
+Jade
+Just Enough Breeding
+Just Enough Mekanism Multiblocks
+Konkrete
+Kotlin for Forge
+Ksyxis
+KubeJS
+KubeJS Actually Additions
+KubeJS Mekanism
+LaserIO
+Let Me Despawn
+Lithium
+ME Requester
+MEGA Cells
+McJtyLib
+Mekanism
+Mekanism Extras
+Mekanism Fission Recipe
+Mekanism Lasers
+Mekanism Unleashed
+Mekanism: Additions
+Mekanism: Generators
+Mekanism: Science
+Mekanism: Tools
+Melody
+MidnightLib
+Model Gap Fix
+Modern UI
+ModernFix
+Modular Routers
+More Mekanism Processing
+Mouse Tweaks
+OctoLib
+Patchouli
+Pipez
+Placebo
+PolyLib
+Pretty Pipes: Fluids
+PrettyPipes
+PrickleMC
+ProbeJS
+Pylons
+QuarryPlus
+RFToolsBase
+RFToolsBuilder
+Reese's Sodium Options
+Relics
+Rhino
+Scalable Cat's Force
+Seamless Loading Screen
+Searchables
+Simple Discord Rich Presence
+Simple Weather
+Skniro's GrowableOres
+Sodium
+Sodium Dynamic Lights
+Sodium Extra
+Sodium Options API
+Solar Flux Reborn
+SolarGeneration
+Sophisticated Backpacks
+Sophisticated Core
+Super Factory Manager (SFM)
+SuperMartijn642's Config Library
+SuperMartijn642's Core Lib
+Tesseract
+Titanium
+TooManyRecipeViewers
+Translocators
+Trash Cans
+TrashSlot
+UTI Also Fluids And Chemicals
+Untranslated Items
+Waystones
+Xaero's Minimap
+Xaero's World Map
+YetAnotherConfigLib
+libIPN
