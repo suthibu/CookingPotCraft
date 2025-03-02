@@ -24,7 +24,7 @@ B:game_intro_fade_out = 'true';
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
+B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '';
 S:custom_window_icon_32 = '';
 S:custom_window_title = 'Cookin Pot Craft';
@@ -78,3 +78,8 @@ B:debug_overlay_show_resources_category = 'true';
 ##[tutorial]
 
 B:show_welcome_screen = 'false';
+
+
+##[keyframe_editor]
+
+B:arrow_keys_move_preview = 'false';
