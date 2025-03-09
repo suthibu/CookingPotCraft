@@ -3,7 +3,7 @@ navigation:
   title: 超臨界相転移装置(SPS)
   icon: "mekanism:sps_port"
   parent: mekanism:multiblocks.md
-  position: 1
+  position: 4
 item_ids:
   - mekanism:sps_port
 ---
