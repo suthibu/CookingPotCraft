@@ -12,14 +12,34 @@ item_ids:
 ## ボイラー
 <Column alignItems="center">
 <GameScene interactive={true} zoom="2">
-  <ImportStructure src="../assets/machines/nuclear_fusion.snbt" />
+  <ImportStructure src="../assets/machines/boiler.snbt" />
 </GameScene>
 </Column>
 <Row>
-<RecipeFor id="mekanismgenerators:fusion_reactor_port"/>
-<RecipeFor id="mekanismgenerators:fusion_reactor_frame"/>
+<RecipeFor id="mekanism:boiler_valve"/>
+<RecipeFor id="mekanism:boiler_casing"/>
 </Row>
 <Row>
-<RecipeFor id="mekanismgenerators:laser_focus_matrix"/>
-<RecipeFor id="mekanismgenerators:reactor_glass"/>
+<RecipeFor id="mekanism:superheating_element"/>
+<RecipeFor id="mekanism:pressure_disperser"/>
 </Row>
+<RecipeFor id="mekanism:structural_glass"/>
+
+ボイラーは熱を移動させられるマルチブロックです。
+最大**18x18x18**までの大きさにすることが可能です。
+
+---
+
+例:  
+→搬入  
+←搬出  
+
+---
+
+過熱されたナトリウム→  
+水→  
+ナトリウム←  
+水蒸気←  
+
+---
+
