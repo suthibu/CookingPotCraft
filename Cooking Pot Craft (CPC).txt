@@ -20,11 +20,11 @@ Better Tags
 BetterF3
 Bigger AE2
 Bookshelf
+Building Wands
 CBMultipart
 Chunk Loaders
 Cloth Config v15 API
 Clumps
-Cobblegen Galore
 CodeChicken Lib
 Collective
 CommonCapabilities
@@ -39,7 +39,6 @@ Crafting Tweaks
 Cucumber Library
 CullLeaves
 Cupboard mod
-Curios API
 Cyclops Core
 Dank Storage
 Drippy Loading Screen
@@ -70,9 +69,9 @@ Fast Workbench
 FastFurnace
 FastLeafDecay
 Ferrite Core
+Flerovium
 Fluid Tank
 Flux Networks
-ForgeEndertech
 Freecam
 Functional Storage
 Fzzy Config
@@ -90,6 +89,7 @@ Iron Chests
 Iron Furnaces
 Iron Jetpacks
 Jade
+Just Another Void Dimension
 Just Enough Breeding
 Just Enough Mekanism Multiblocks
 Konkrete
@@ -115,6 +115,7 @@ Mekanism: Science
 Mekanism: Tools
 Melody
 MidnightLib
+Minecraft Cursor
 Model Gap Fix
 Modern UI
 ModernFix
@@ -138,8 +139,8 @@ Pylons
 QuarryPlus
 RFToolsBase
 RFToolsBuilder
+RFToolsUtility
 Reese's Sodium Options
-Relics
 Reliquary Reincarnations
 Rhino
 Scalable Cat's Force
@@ -165,10 +166,11 @@ TooManyRecipeViewers
 Translocators
 Trash Cans
 TrashSlot
+Trenzalore
 UTI Also Fluids And Chemicals
 Untranslated Items
-Waystones
 Xaero's Minimap
 Xaero's World Map
 YetAnotherConfigLib
+You Died
 libIPN
